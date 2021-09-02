@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'hobbitonbrushhand';
-  src: url('/fonts/hobbitonbrushhand.woff') format('woff');
+  src: url('./fonts/hobbitonbrushhand.woff') format('woff');
   font-weight: 600;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'conkordia';
-  src: url('/fonts/conkordia.woff') format('woff');
+  src: url('./fonts/conkordia.woff') format('woff');
   font-weight: 600;
   font-style: oblique;
 }
@@ -28,7 +28,7 @@ html {
 body {
   display: grid;
   justify-content: flex-end;
-  background: url("/img/jesson-w-by-jesson-w-armored-elf-girl-elf-elf-girl-sword-fan.jpg") no-repeat;
+  background: url("./img/jesson-w-by-jesson-w-armored-elf-girl-elf-elf-girl-sword-fan.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
