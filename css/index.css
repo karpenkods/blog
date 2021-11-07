@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'hobbitonbrushhand';
-  src: url('../fonts/hobbitonbrushhand.woff') format('woff');
-  font-weight: 600;
-  font-style: oblique;
-}
-
-@font-face {
   font-family: 'conkordia';
   src: url('../fonts/conkordia.woff') format('woff');
   font-weight: 600;
@@ -22,7 +15,7 @@ a {
 }
 
 html {
-  font-family: 'hobbitonbrushhand', 'conkordia';
+  font-family: 'conkordia';
 }
 
 body {
@@ -132,7 +125,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "hobbitonbrushhand";
+  font-family: 'conkordia';
   font-size: 28px;
   border: 2px solid rgba(100, 20, 20, 0.8);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 1);

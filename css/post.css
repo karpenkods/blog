@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'hobbitonbrushhand';
-  src: url('../fonts/hobbitonbrushhand.woff') format('woff');
-  font-weight: 600;
-  font-style: oblique;
-}
-
-@font-face {
   font-family: 'conkordia';
   src: url('../fonts/conkordia.woff') format('woff');
   font-weight: 600;
@@ -22,7 +15,7 @@ a {
 }
 
 html {
-  font-family: 'hobbitonbrushhand', 'conkordia';
+  font-family: 'conkordia';
 }
 
 body {
